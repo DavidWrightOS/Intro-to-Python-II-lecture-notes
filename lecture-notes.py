@@ -18,3 +18,15 @@ def mult2_list(l):
 print(l)                                            # [1, 2, 3, 4]
 print(mult2_list(l))                                # [2, 4, 6, 8]
 print(l)                                            # [2, 4, 6, 8]
+
+
+
+print('\n\n//**********************// LISTS //**********************//')
+
+print('\nDoubling a list:\n')
+
+l2 = [1, 2, 3, 4]
+
+print(l2)                                           # [1, 2, 3, 4]
+print(l2 + l2)                                      # [1, 2, 3, 4, 1, 2, 3, 4]
+print(l2 * 2)                                       # [1, 2, 3, 4, 1, 2, 3, 4]
