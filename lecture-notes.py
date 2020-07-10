@@ -30,3 +30,19 @@ l2 = [1, 2, 3, 4]
 print(l2)                                           # [1, 2, 3, 4]
 print(l2 + l2)                                      # [1, 2, 3, 4, 1, 2, 3, 4]
 print(l2 * 2)                                       # [1, 2, 3, 4, 1, 2, 3, 4]
+
+
+
+print('\n\n//**********************// MAP //**********************//')
+
+print('\nDoubling each element in a list:\n')
+
+# Use Python's built-in 'map' function to Double each element in a list
+
+# When using 'lambda', define a temporary variable (e.g. 'x') to represent each element
+# In the code below, 'x' is similar to '$0' in Swift's closure syntax
+# The 'map' function returns an 'iterator' type, so we need to cast back to a 'list'
+
+print(l2)                                           # [1, 2, 3, 4]
+print(list(map(lambda x: x*2, l2)))                 # [2, 4, 6, 8]
+print(l2)                                           # [1, 2, 3, 4]
